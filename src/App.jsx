@@ -2,61 +2,67 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Accordion from "react-bootstrap/Accordion";
-import Button from "react-bootstrap/Button";
+import Image from "react-bootstrap/Image";
 import { CallToAction } from "./components/call-to-action/CallToAction";
 import { Footer } from "./components/footer/Footer";
-import { LanguageSelector } from "./components/languageSelector/LanguageSelector";
+import TV from "./components/media/tv.png";
+import { Header } from "./components/header/Header";
 
 function App() {
   return (
     <>
-      <Container>
-        <Row>
-          <Col>Logo</Col>
-          <Col>
-            <LanguageSelector />
-          </Col>
-          <Col>
-            <Button variant="danger">Sign In</Button>
+      <Container fluid id="header-container">
+        <div id="tint"></div>
+        <Row className="justify-content-center">
+          <Col lg={8}>
+            <Header />
           </Col>
         </Row>
-        <Row>
-          <Row>
-            <h1>Unlimited movies, TV shows, and more</h1>
+        <Row className="align-items-center">
+          <Row className="text-center">
+            <h1 style={{ fontWeight: "900" }}>
+              Unlimited movies, TV shows, and more
+            </h1>
             <p>Watch anywhere. Cancel anytime.</p>
           </Row>
-          <Row>
-            <CallToAction />
-          </Row>
+          <CallToAction />
         </Row>
       </Container>
-      <Container>
+      <Container fluid>
+        <Row>
+          <Col>
+            <h2>Enjoy on your TV</h2>
+            <p>
+              Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
+              Blu-ray players, and more.
+            </p>
+          </Col>
+          <Col>
+            <Image src={TV} fluid />
+          </Col>
+        </Row>
+      </Container>
+      <Container fluid>
+        <Row>
+          <Col>Video</Col>
+          <Col>Text</Col>
+        </Row>
+      </Container>
+      <Container fluid>
         <Row>
           <Col>Text</Col>
           <Col>Video</Col>
         </Row>
       </Container>
-      <Container>
-        <Row>
-          <Col>Video</Col>
-          <Col>Text</Col>
-        </Row>
-      </Container>
-      <Container>
-        <Row>
-          <Col>Text</Col>
-          <Col>Video</Col>
-        </Row>
-      </Container>
-      <Container>
+      <Container fluid>
         <Row>
           <Col>Image</Col>
           <Col>Text</Col>
         </Row>
       </Container>
       <Container>
-        <h1>Frequently Asked Questions</h1>
-        <Accordion defaultActiveKey="0">
+        <h1 className="text-center">Frequently Asked Questions</h1>
+        <Accordion defaultActiveKey="0" data-bs-theme="dark" flush>
           <Accordion.Item eventKey="0">
             <Accordion.Header>What is Netflix</Accordion.Header>
             <Accordion.Body>

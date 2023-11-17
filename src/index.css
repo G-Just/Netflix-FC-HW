@@ -8,8 +8,50 @@
 
 body {
   height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.row {
-  border: 1px solid black;
+#root {
+  background: black;
+  color: white;
+}
+
+/* .row {
+  border: 1px solid red;
+} */
+
+h1 {
+  font-size: 3em !important;
+}
+
+#header-container {
+  background-image: url(./components/media/background.jpg);
+  background-position-x: 50%;
+  background-position-y: 64%;
+  background-size: 125%;
+  height: 700px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+#header-container > div:last-child {
+  justify-content: center;
+  margin-top: 170px;
+}
+
+#tint {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgb(0 0 0 / 40%);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  z-index: -1;
 }
