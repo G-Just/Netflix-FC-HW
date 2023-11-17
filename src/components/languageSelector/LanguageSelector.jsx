@@ -1,12 +1,15 @@
-import Dropdown from "react-bootstrap/Dropdown";
-import DropdownButton from "react-bootstrap/DropdownButton";
+import Style from "./LanguageSelector.module.css";
+import Translate from "../media/translation.svg";
 
 export function LanguageSelector() {
   return (
-    <DropdownButton id="dropdown-basic-button" title="English">
-      <Dropdown.Item href="#/action-1">English</Dropdown.Item>
-      <Dropdown.Item href="#/action-2">Russian</Dropdown.Item>
-      <Dropdown.Item href="#/action-3">....</Dropdown.Item>
-    </DropdownButton>
+    <div className={Style.selectContainer}>
+      <img className={Style.icon} src={Translate} alt="select language" />
+      <select className={Style.select}>
+        <option value="English">English</option>
+        <option value="Russian">Russian</option>
+        <option value="...">...</option>
+      </select>
+    </div>
   );
 }

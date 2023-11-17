@@ -11,24 +11,24 @@ import { Header } from "./components/header/Header";
 function App() {
   return (
     <>
-      <Container fluid id="header-container">
+      <Container fluid id="hero-container">
         <div id="tint"></div>
         <Row className="justify-content-center">
-          <Col lg={8}>
+          <Col xxl={8} lg={12}>
             <Header />
           </Col>
         </Row>
         <Row className="align-items-center">
-          <Row className="text-center">
-            <h1 style={{ fontWeight: "900" }}>
+          <Row className="text-center mt-3">
+            <h1 style={{ fontWeight: "800" }}>
               Unlimited movies, TV shows, and more
             </h1>
-            <p>Watch anywhere. Cancel anytime.</p>
+            <p className="mt-2">Watch anywhere. Cancel anytime.</p>
           </Row>
           <CallToAction />
         </Row>
       </Container>
-      <Container fluid>
+      <Container className="content-box" fluid>
         <Row>
           <Col>
             <h2>Enjoy on your TV</h2>
@@ -42,25 +42,30 @@ function App() {
           </Col>
         </Row>
       </Container>
-      <Container fluid>
+      <Container className="content-box" fluid>
         <Row>
-          <Col>Video</Col>
-          <Col>Text</Col>
+          <Col></Col>
+          <Col>
+            <h2>Download your shows to watch offline</h2>
+            <p>
+              Save your favorites easily and always have something to watch.
+            </p>
+          </Col>
         </Row>
       </Container>
-      <Container fluid>
+      <Container className="content-box" fluid>
         <Row>
           <Col>Text</Col>
           <Col>Video</Col>
         </Row>
       </Container>
-      <Container fluid>
+      <Container className="content-box" fluid>
         <Row>
           <Col>Image</Col>
           <Col>Text</Col>
         </Row>
       </Container>
-      <Container>
+      <Container className="content-box" fluid>
         <h1 className="text-center">Frequently Asked Questions</h1>
         <Accordion defaultActiveKey="0" data-bs-theme="dark" flush>
           <Accordion.Item eventKey="0">
@@ -130,7 +135,9 @@ function App() {
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
-        <CallToAction />
+        <Container className="content-box" fluid>
+          <CallToAction />
+        </Container>
       </Container>
       <Footer />
     </>

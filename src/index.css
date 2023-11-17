@@ -24,7 +24,11 @@ h1 {
   font-size: 3em !important;
 }
 
-#header-container {
+p {
+  font-size: 1.5rem;
+}
+
+#hero-container {
   background-image: url(./components/media/background.jpg);
   background-position-x: 50%;
   background-position-y: 64%;
@@ -35,7 +39,7 @@ h1 {
   z-index: 1;
 }
 
-#header-container > div:last-child {
+#hero-container > div:last-child {
   justify-content: center;
   margin-top: 170px;
 }
@@ -54,4 +58,9 @@ h1 {
     rgba(0, 0, 0, 0.8) 100%
   );
   z-index: -1;
+}
+
+.content-box {
+  padding: 4.5rem 0;
+  border-top: 8px solid rgb(35, 35, 35);
 }

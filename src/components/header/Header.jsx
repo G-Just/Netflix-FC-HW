@@ -1,22 +1,29 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
 import Logo from "../media/logo.svg";
 import { LanguageSelector } from "../languageSelector/LanguageSelector";
-import "./header.css";
+import Style from "./Header.module.css";
 
 export function Header() {
   return (
-    <Row id="header" className="justify-content-between">
-      <Col className="px-0">
-        <Image id="logo" src={Logo} fluid />
+    <Row className={Style.header}>
+      <Col lg={3} md={2} xs={4} className="px-0">
+        <Image className={Style.logo} src={Logo} fluid />
       </Col>
-      <Col lg={2} className="d-flex flex-nowrap">
-        <LanguageSelector />
-        <Button variant="danger" className="mx-2">
-          Sign In
-        </Button>
+      <Col
+        xxl={3}
+        lg={5}
+        md={10}
+        xs={8}
+        className="d-flex flex-nowrap justify-content-end gap-3"
+      >
+        <Col lg={7} md={3} xs={3}>
+          <LanguageSelector />
+        </Col>
+        <Col lg={4} md={2} xs={5}>
+          <button className={Style.button}>Sign In</button>
+        </Col>
       </Col>
     </Row>
   );
