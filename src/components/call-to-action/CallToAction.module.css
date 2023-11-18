@@ -58,13 +58,34 @@
   font-weight: 500;
 }
 
-@media (min-width: 768px) {
-  .button {
-    margin-top: 0 !important;
+@media (max-width: 1920px) {
+  .label {
+    left: 3.5%;
   }
 }
 
-@media (min-width: 425px) {
+@media (max-width: 1440px) {
+  .label {
+    left: 4.5%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .label {
+    left: 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .label {
+    left: 4.5%;
+  }
+}
+
+@media (max-width: 425px) {
+  .label {
+    left: 4.5%;
+  }
   .button {
     margin-top: 20px;
   }
