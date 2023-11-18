@@ -16,16 +16,15 @@ body {
   color: white;
 }
 
-/* .row {
-  border: 1px solid red;
-} */
-
 h1 {
   font-size: 3em !important;
+  font-weight: 800 !important;
+  margin: 10px 0 !important;
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.5rem !important;
+  font-weight: 400 !important;
 }
 
 #hero-container {
@@ -60,7 +59,88 @@ p {
   z-index: -1;
 }
 
-.content-box {
+.contentBox {
   padding: 4.5rem 0;
   border-top: 8px solid rgb(35, 35, 35);
+}
+
+.videoBox {
+  position: relative;
+}
+
+.videoBox > img {
+  position: relative;
+  z-index: 1;
+}
+
+.videoBox > video {
+  position: absolute;
+  top: 20%;
+  left: 13%;
+  width: 85%;
+  z-index: 0;
+  overflow: hidden !important;
+}
+
+.mac > video {
+  top: 10%;
+  left: 17%;
+  width: 65% !important;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em !important;
+    font-weight: 800 !important;
+    margin: 0 !important;
+    text-align: center;
+    margin: 1rem 0 !important;
+  }
+
+  p {
+    font-size: 1.125rem !important;
+    font-weight: 400 !important;
+    text-align: center;
+  }
+  #hero-container {
+    height: 512px !important;
+  }
+  #hero-container > div:last-child {
+    justify-content: center;
+    margin-top: 61px;
+  }
+  .videoBox > video {
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    width: 70%;
+  }
+
+  .mac > video {
+    top: 10%;
+    left: 17%;
+    width: 57% !important;
+  }
+}
+
+@media (max-width: 425px) {
+  #hero-container > div:last-child {
+    justify-content: center;
+    margin-top: 15px;
+  }
+  h1 {
+    font-weight: 700 !important;
+  }
+  .videoBox > video {
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    width: 73%;
+  }
+
+  .mac > video {
+    top: 11%;
+    left: 17%;
+    width: 65% !important;
+  }
 }
