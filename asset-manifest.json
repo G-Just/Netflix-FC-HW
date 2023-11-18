@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Netflix-FC-HW/static/css/main.8ac77184.css",
+    "main.css": "/Netflix-FC-HW/static/css/main.00287837.css",
     "main.js": "/Netflix-FC-HW/static/js/main.4ff70431.js",
     "static/media/video-mac.mp4": "/Netflix-FC-HW/static/media/video-mac.589a03c2f0a414643ddf.mp4",
     "static/media/video-tv.mp4": "/Netflix-FC-HW/static/media/video-tv.1932708d2885063efcfd.mp4",
@@ -15,11 +15,11 @@
     "index.html": "/Netflix-FC-HW/index.html",
     "static/media/translation.svg": "/Netflix-FC-HW/static/media/translation.837a4f6c5e57c936f4ad7fa36115a24e.svg",
     "static/media/x.svg": "/Netflix-FC-HW/static/media/x.2d790f4b2e0c27afd3ca.svg",
-    "main.8ac77184.css.map": "/Netflix-FC-HW/static/css/main.8ac77184.css.map",
+    "main.00287837.css.map": "/Netflix-FC-HW/static/css/main.00287837.css.map",
     "main.4ff70431.js.map": "/Netflix-FC-HW/static/js/main.4ff70431.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ac77184.css",
+    "static/css/main.00287837.css",
     "static/js/main.4ff70431.js"
   ]
 }
