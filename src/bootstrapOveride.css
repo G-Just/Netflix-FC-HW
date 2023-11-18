@@ -28,3 +28,10 @@
   --bs-accordion-active-bg: #414141 !important;
   --bs-accordion-btn-focus-box-shadow: none !important;
 }
+
+@media (max-width: 425px) {
+  .accordion-body,
+  .accordion-button {
+    font-size: 1.125rem !important;
+  }
+}

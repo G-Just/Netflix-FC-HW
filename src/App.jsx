@@ -7,6 +7,8 @@ import Image from "react-bootstrap/Image";
 // Media
 import TV from "./components/media/tv.png";
 import Phone from "./components/media/mobile.jpg";
+import PhoneThumbnail from "./components/media/phoneThumbnail.png";
+import PhoneAnimation from "./components/media/download-icon.gif";
 import MAC from "./components/media/mac.png";
 import KidsPoster from "./components/media/kids-poster.png";
 import TvVideo from "./components/media/video-tv.mp4";
@@ -44,11 +46,23 @@ function App() {
           <video muted autoPlay loop src={TvVideo}></video>
         </div>
       </ContentBox>
-      <ContentBox>
-        <Image src={Phone} fluid />
+      <ContentBox order={"flip"}>
         <div>
           <h1>Download your shows to watch offline</h1>
           <p>Save your favorites easily and always have something to watch.</p>
+        </div>
+        <div>
+          <div id="phoneContainer">
+            <Image src={Phone} fluid />
+            <div>
+              <img src={PhoneThumbnail} alt="stranger things poster" />
+              <div>
+                <p>Stranger Things</p>
+                <p>Downloading...</p>
+              </div>
+              <img src={PhoneAnimation} alt="download animation"></img>
+            </div>
+          </div>
         </div>
       </ContentBox>
       <ContentBox>
@@ -64,8 +78,7 @@ function App() {
           <video muted autoPlay loop src={MacVideo}></video>
         </div>
       </ContentBox>
-      <ContentBox>
-        <Image src={KidsPoster} fluid />
+      <ContentBox order={"flip"}>
         <div>
           <h1>Create profiles for kids</h1>
           <p>
@@ -73,6 +86,7 @@ function App() {
             made just for them—free with your membership.
           </p>
         </div>
+        <Image src={KidsPoster} fluid />
       </ContentBox>
       <Container className="contentBox" fluid>
         <Container>
@@ -165,8 +179,8 @@ function App() {
           <CallToAction />
         </Row>
       </Container>
-      <Container className="contentBox" fluid>
-        <Row fluid className="justify-content-center">
+      <Container className="contentBox pt-4 pb-4" fluid>
+        <Row className="justify-content-center" fluid>
           <Footer />
         </Row>
       </Container>

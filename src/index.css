@@ -88,10 +88,46 @@ p {
   width: 65% !important;
 }
 
+#phoneContainer {
+  position: relative;
+}
+
+#phoneContainer > div {
+  position: absolute;
+  border-radius: 12px;
+  border: 2px solid rgba(128, 128, 128, 0.7);
+  width: 55%;
+  height: 23%;
+  top: 70%;
+  left: 22%;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 8px;
+}
+
+#phoneContainer > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+#phoneContainer > div > div > p:first-child {
+  font-weight: 500;
+  font-size: 1rem !important;
+  margin: 0;
+}
+#phoneContainer > div > div > p:last-child {
+  font-size: 0.875rem !important;
+  color: #0071eb;
+  margin: 0;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 2em !important;
-    font-weight: 800 !important;
+    font-weight: 700 !important;
     margin: 0 !important;
     text-align: center;
     margin: 1rem 0 !important;
@@ -121,6 +157,16 @@ p {
     left: 17%;
     width: 57% !important;
   }
+  #hero-container {
+    background-size: 150%;
+  }
+  .contentBox {
+    padding: 3rem 0;
+  }
+  #phoneContainer > div {
+    width: 52%;
+    left: 20%;
+  }
 }
 
 @media (max-width: 425px) {
@@ -142,5 +188,12 @@ p {
     top: 11%;
     left: 17%;
     width: 65% !important;
+  }
+  #hero-container {
+    background-size: 200%;
+  }
+  #phoneContainer > div {
+    width: 70%;
+    left: 15%;
   }
 }
