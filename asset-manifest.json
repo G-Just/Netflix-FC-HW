@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Netflix-FC-HW/static/css/main.8ac77184.css",
+    "main.js": "/Netflix-FC-HW/static/js/main.4ff70431.js",
+    "static/media/video-mac.mp4": "/Netflix-FC-HW/static/media/video-mac.589a03c2f0a414643ddf.mp4",
+    "static/media/video-tv.mp4": "/Netflix-FC-HW/static/media/video-tv.1932708d2885063efcfd.mp4",
+    "static/media/background.jpg": "/Netflix-FC-HW/static/media/background.b89e843e1b5d3c20f3c7.jpg",
+    "static/media/kids-poster.png": "/Netflix-FC-HW/static/media/kids-poster.6fd4253559d520f03d4d.png",
+    "static/media/mac.png": "/Netflix-FC-HW/static/media/mac.8e6539e8bfc6937a0648.png",
+    "static/media/mobile.jpg": "/Netflix-FC-HW/static/media/mobile.063578d5b6d5ab4155ec.jpg",
+    "static/media/download-icon.gif": "/Netflix-FC-HW/static/media/download-icon.1ce72c891b52e6f68f2f.gif",
+    "static/media/phoneThumbnail.png": "/Netflix-FC-HW/static/media/phoneThumbnail.347f4ee3bafbdfe71112.png",
+    "static/media/tv.png": "/Netflix-FC-HW/static/media/tv.0049bc70babc1f94cf88.png",
+    "static/media/logo.svg": "/Netflix-FC-HW/static/media/logo.5787551b8de42aef368c379572555ada.svg",
+    "static/media/translation.svg": "/Netflix-FC-HW/static/media/translation.837a4f6c5e57c936f4ad7fa36115a24e.svg",
+    "index.html": "/Netflix-FC-HW/index.html",
+    "static/media/x.svg": "/Netflix-FC-HW/static/media/x.2d790f4b2e0c27afd3ca.svg",
+    "main.8ac77184.css.map": "/Netflix-FC-HW/static/css/main.8ac77184.css.map",
+    "main.4ff70431.js.map": "/Netflix-FC-HW/static/js/main.4ff70431.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ac77184.css",
+    "static/js/main.4ff70431.js"
+  ]
+}
