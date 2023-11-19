@@ -12,7 +12,7 @@ export function Footer() {
           <Col>
             <p
               className={Style.textSpecial}
-              style={{ textDecoration: "underline" }}
+              style={{ textDecoration: "underline", cursor: "pointer" }}
             >
               Questions? Contact us.
             </p>
