@@ -148,14 +148,14 @@ p {
   .videoBox > video {
     position: absolute;
     top: 20%;
-    left: 12%;
-    width: 70%;
+    left: 16%;
+    width: 69%;
   }
 
   .mac > video {
     top: 10%;
-    left: 17%;
-    width: 57% !important;
+    left: 19%;
+    width: 60% !important;
   }
   #hero-container {
     background-size: 150%;

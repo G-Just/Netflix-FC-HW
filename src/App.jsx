@@ -41,7 +41,7 @@ function App() {
             players, and more.
           </p>
         </div>
-        <div className="videoBox">
+        <div className="videoBox d-flex justify-content-center">
           <Image src={TV} fluid />
           <video muted autoPlay loop src={TvVideo}></video>
         </div>
@@ -73,7 +73,7 @@ function App() {
             and TV.
           </p>
         </div>
-        <div className="videoBox mac">
+        <div className="videoBox mac d-flex justify-content-center">
           <Image src={MAC} fluid />
           <video muted autoPlay loop src={MacVideo}></video>
         </div>
