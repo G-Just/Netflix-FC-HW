@@ -14,3 +14,5 @@ Netflix-clone
 ## Goals
 
 Develop a netflix clone, using the React.js stack.
+
+Page not hosted on github pages because its being flagged as phishing site. ¯\_(ツ)_/¯
