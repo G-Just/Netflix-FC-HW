@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Netflix-FC-HW/static/css/main.00287837.css",
-    "main.js": "/Netflix-FC-HW/static/js/main.4ff70431.js",
+    "main.css": "/Netflix-FC-HW/static/css/main.7cf46520.css",
+    "main.js": "/Netflix-FC-HW/static/js/main.5c8b003a.js",
     "static/media/video-mac.mp4": "/Netflix-FC-HW/static/media/video-mac.589a03c2f0a414643ddf.mp4",
     "static/media/video-tv.mp4": "/Netflix-FC-HW/static/media/video-tv.1932708d2885063efcfd.mp4",
     "static/media/background.jpg": "/Netflix-FC-HW/static/media/background.b89e843e1b5d3c20f3c7.jpg",
@@ -15,11 +15,11 @@
     "index.html": "/Netflix-FC-HW/index.html",
     "static/media/translation.svg": "/Netflix-FC-HW/static/media/translation.837a4f6c5e57c936f4ad7fa36115a24e.svg",
     "static/media/x.svg": "/Netflix-FC-HW/static/media/x.2d790f4b2e0c27afd3ca.svg",
-    "main.00287837.css.map": "/Netflix-FC-HW/static/css/main.00287837.css.map",
-    "main.4ff70431.js.map": "/Netflix-FC-HW/static/js/main.4ff70431.js.map"
+    "main.7cf46520.css.map": "/Netflix-FC-HW/static/css/main.7cf46520.css.map",
+    "main.5c8b003a.js.map": "/Netflix-FC-HW/static/js/main.5c8b003a.js.map"
   },
   "entrypoints": [
-    "static/css/main.00287837.css",
-    "static/js/main.4ff70431.js"
+    "static/css/main.7cf46520.css",
+    "static/js/main.5c8b003a.js"
   ]
 }
